@@ -143,6 +143,34 @@
 
 <section class="section">
   <div class="container is-max-desktop">
+    <!-- Method -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Method</h2>
+        <div class="content has-text-justified">
+          <p>
+            Our method aims to enhance a low-quality RGB input image x, by a learned model that outputs an enhanced version y. This enhanced image is derived as close as possible to the expert-retouched image y, based on some objective function L.
+          </p>
+          <p>
+            Our approach consists of four main components. First, it applies a DNN backbone that standardizes the input image into a canonical latent space. Next, we use color naming to decompose the image into six color maps. After color naming decomposition, a neural network learns a set of Bezier tone curves to manipulate each color map globally. Finally, an attention mechanism is used to fuse the edited images to achieve local editing effects.
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <div class="method-image">
+          <img src="static/images/figure-method.pdf" alt="method", style="max-width: 100%"/>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
+  
+<section class="section">
+  <div class="container is-max-desktop">
 
     <div class="columns is-centered">
 
