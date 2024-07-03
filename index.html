@@ -3,24 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="description"
-        content="Deformable Neural Radiance Fields creates free-viewpoint portraits (nerfies) from casually captured videos.">
-  <meta name="keywords" content="Nerfies, D-NeRF, NeRF">
+        content="Learned Image Enhancement via Color Naming">
+  <meta name="keywords" content="Image Enhancement, Color Naming, Tone Curves, ECCV">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Nerfies: Deformable Neural Radiance Fields</title>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-
-    gtag('js', new Date());
-
-    gtag('config', 'G-PYVRSFMDRL');
-  </script>
+  <title>Learned Image Enhancement via Color Naming</title>
 
   <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
         rel="stylesheet">
@@ -52,31 +38,12 @@
   </div>
   <div class="navbar-menu">
     <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
-      <a class="navbar-item" href="https://keunhong.com">
+      <a class="navbar-item" href="https://david.serra9.github.io">
       <span class="icon">
           <i class="fas fa-home"></i>
       </span>
       </a>
 
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          More Research
-        </a>
-        <div class="navbar-dropdown">
-          <a class="navbar-item" href="https://hypernerf.github.io">
-            HyperNeRF
-          </a>
-          <a class="navbar-item" href="https://nerfies.github.io">
-            Nerfies
-          </a>
-          <a class="navbar-item" href="https://latentfusion.github.io">
-            LatentFusion
-          </a>
-          <a class="navbar-item" href="https://photoshape.github.io">
-            PhotoShape
-          </a>
-        </div>
-      </div>
     </div>
 
   </div>
@@ -103,11 +70,11 @@
               <a href="http://www.cse.yorku.ca/~mbrown/">Michael S. Brown</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://jvazquezcorral.github.io/">Javier Vazquez-Corral</a><sup>1,4</sup>,
+              <a href="https://jvazquezcorral.github.io/">Javier Vazquez-Corral</a><sup>1,4</sup>
             </span>
           </div>
 
-          <div class="is-size-5 publication-authors">
+          <div class="is-size-6 publication-authors">
             <span class="author-block"><sup>1</sup>Computer Vision Center,</span>
             <span class="author-block"><sup>2</sup>Universidad Autonoma de Madrid,</span>
             <span class="author-block"><sup>3</sup>York University,</span>
@@ -152,9 +119,7 @@
                 type="video/mp4">
       </video>
       <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
+        Our method learns to globally adjust the image for each specific named color via tone curves and then combines the images using an attention-based fusion mechanism.
       </h2>
     </div>
   </div>
